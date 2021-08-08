@@ -38,13 +38,28 @@
 // numbers(5 , 9);
 
 //question 6 ******undefind************
+//=================================
+
 // function myNumbers(num){
 // var num1 =num[0] 
 // var num2 =num [1]
 // var num3 =num[2]
 // return console.log(parseInt(num1), num2,num3);
 // }
+//=================================
 // myNumbers(123)
+// function sumAllNumbers(num1) {
+//     var sumAll=0;
+//     while (num1 > 0) {
+//         var modulu = num1 % 10 ;
+//         var num1 = (num1 / 10) - (modulu / 10);
+//         sumAll = modulu + sumAll ;
+//     }
+//     return(sumAll)
+// }
+
+// var modulu = sumAllNumbers(255)
+// console.log(modulu);
 
 
 //question 7
@@ -124,6 +139,7 @@
 
 
 //question 9
+//========ask aschale=====
 
 // var myArray = [];
 // var userInput = Number (prompt ("insert a number"));
@@ -132,6 +148,20 @@
 
 // }
 
+// function existOrNot(array){
+//     var userInput=Number(prompt("enter a number"));
+//     var counter = 0;
+//     while(counter < array.length){  
+//         if(userInput==array[counter]) {
+//             return(array.indexOf(array[counter]));
+//             delete array [counter];
+//             return(array);
+//         }     
+//        counter++
+//     }
+// } 
+
+// existOrNot([2, 4, 6, 8, 10]);
 
 //question 10
 // var sum = 1;
@@ -145,8 +175,15 @@
 // console.log(sum);
 
 //question 11
+//========ask aschale=====
 // var numbers=[1,20,3,1,47,8,3,55,20,6];
-function numbers(numbers){
-    if()
-}
+// function numbers (array){
+//     var 
+// }
+
+
+
+
+
+
 
